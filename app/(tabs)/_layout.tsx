@@ -10,6 +10,9 @@ export default function TabLayout() {
     screenOptions={
       {
         tabBarShowLabel : false,
+        headerShown: false,
+        tabBarActiveTintColor: COLORS.primary,
+        tabBarInactiveTintColor: COLORS.gray,
       }
     }
    >
