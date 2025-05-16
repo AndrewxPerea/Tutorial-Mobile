@@ -1,11 +1,11 @@
 import { Text, View, Image } from "react-native";
-import {style} from "../../styles/auth.style"
+import {styles} from "../../styles/auth.style"
 import { Link } from "expo-router";
 
 
 export default function Index() {
   return (
-    <View style={style.container}>
+    <View style={styles.container}>
       <Link href={"/notifications"}>Notificaciones </Link>
     </View>
   );
